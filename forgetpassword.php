@@ -17,6 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         } else {
             $loginexists = false;
             echo "false";
+            echo "true";
         }
     } else {
         echo "not connected";
